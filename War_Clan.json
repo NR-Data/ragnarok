@@ -1,0 +1,1022 @@
+{
+  "catalogue": {
+    "name": "War Clan",
+    "id": "43e6-0a94-b4db-217b",
+    "battleScribeVersion": 2.03,
+    "gameSystemId": "0368-930f-c4d8-7d2e",
+    "gameSystemRevision": 3,
+    "library": false,
+    "revision": 1,
+    "type": "catalogue",
+    "xmlns": "http://www.battlescribe.net/schema/catalogueSchema",
+    "profileTypes": [{"name": "Special Abilities", "id": "c6c5-280a-b5c3-7a69", "characteristicTypes": [{"name": "Ability", "id": "d377-2906-f93b-0501"}]}],
+    "selectionEntries": [
+      {
+        "name": "Jarl",
+        "id": "6035-fef6-891a-0281",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "type": "model",
+        "categoryLinks": [
+          {"name": "New CategoryLink", "id": "f395-04ee-3932-6b87", "hidden": false, "primary": true, "targetId": "c641-ea3b-0cb3-a2a1"},
+          {"name": "Models", "id": "aa99-be78-868e-744a", "hidden": false, "primary": false, "targetId": "e432-0a79-0f40-69f8"}
+        ],
+        "constraints": [
+          {
+            "id": "86a1-94bd-69be-368f",
+            "field": "selections",
+            "includeChildForces": false,
+            "includeChildSelections": false,
+            "percentValue": false,
+            "scope": "force",
+            "shared": true,
+            "type": "max",
+            "value": 1
+          }
+        ],
+        "costs": [{"name": "Glory", "typeId": "075a-a276-09aa-163f", "value": 160}],
+        "entryLinks": [
+          {
+            "name": "Armor",
+            "id": "cca3-c657-59d3-bcc2",
+            "collective": false,
+            "hidden": false,
+            "import": true,
+            "targetId": "874f-c295-cc1a-bb92",
+            "type": "selectionEntryGroup"
+          },
+          {
+            "name": "Weapons",
+            "id": "1244-0f93-cc81-8e33",
+            "collective": false,
+            "hidden": false,
+            "import": true,
+            "targetId": "3c4b-f29c-62d5-40ef",
+            "type": "selectionEntryGroup"
+          },
+          {
+            "name": "Shield",
+            "id": "fca5-e680-b8fe-f998",
+            "collective": false,
+            "hidden": false,
+            "import": true,
+            "targetId": "387a-b2a0-786e-a66e",
+            "type": "selectionEntryGroup"
+          }
+        ],
+        "infoGroups": [
+          {
+            "name": "Special Abilities",
+            "id": "0fa9-733c-9b49-30eb",
+            "hidden": false,
+            "infoLinks": [
+              {"name": "Teamwork", "id": "613a-d28e-3587-9905", "hidden": false, "targetId": "31db-f105-2801-65a2", "type": "rule"},
+              {"name": "Tactician (x)", "id": "ea91-c21c-ead3-11f4", "hidden": false, "targetId": "7695-b6eb-a5d0-c739", "type": "rule"},
+              {"name": "Combat Sense", "id": "6d41-6f2b-20a5-61c9", "hidden": false, "targetId": "910e-4f1c-248b-819c", "type": "rule"},
+              {"name": "Weapon Master", "id": "b33e-fbd7-0c66-e461", "hidden": false, "targetId": "6ae1-ab6f-cfb6-b735", "type": "rule"}
+            ],
+            "profiles": [
+              {
+                "name": "Special Abilities",
+                "id": "a98f-260c-7382-75a4",
+                "hidden": false,
+                "page": 64,
+                "publicationId": "81de-2783-487c-43ea",
+                "typeId": "84af-fef6-536c-30d5",
+                "typeName": "Special Abilities",
+                "characteristics": [{"name": "Special Abilites", "$text": "Combat Sense, Tactician (12), Teamwork, Hip Shot, Weapon Master", "typeId": "8fae-891e-a533-f212"}]
+              }
+            ]
+          }
+        ],
+        "profiles": [
+          {
+            "name": "Jarl",
+            "id": "b042-e3db-0953-f577",
+            "hidden": false,
+            "page": 64,
+            "publicationId": "81de-2783-487c-43ea",
+            "typeId": "d323-ffd5-ba38-2225",
+            "typeName": "Base Statistics",
+            "characteristics": [
+              {"name": "AP", "$text": "3", "typeId": "a62b-c49a-e0d0-4859"},
+              {"name": "SP", "$text": "5", "typeId": "c2f6-3396-28d2-3768"},
+              {"name": "MA", "$text": "3", "typeId": "341e-c5cb-c3fd-a902"},
+              {"name": "RA", "$text": "2", "typeId": "dfd6-caa6-dae6-0aab"},
+              {"name": "DF", "$text": "3", "typeId": "997c-e0eb-f3cd-fbb1"},
+              {"name": "RS", "$text": "1", "typeId": "48f4-9aaf-07c3-5389"},
+              {"name": "DR", "$text": "3", "typeId": "72fe-3c06-56e5-3b3b"},
+              {"name": "MN", "$text": "2", "typeId": "a8bf-8ece-c0f2-de5c"},
+              {"name": "HP", "$text": "3", "typeId": "a9d6-7c3d-ed79-664c"}
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Bondi",
+        "id": "3d5e-5152-66ff-80e2",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "type": "model",
+        "categoryLinks": [
+          {"name": "New CategoryLink", "id": "8354-1ee2-7cd9-0345", "hidden": false, "primary": true, "targetId": "aa00-3692-2674-7ee9"},
+          {"name": "Models", "id": "8fc8-232b-abcb-66f5", "hidden": false, "primary": false, "targetId": "e432-0a79-0f40-69f8"}
+        ],
+        "costs": [{"name": "Glory", "typeId": "075a-a276-09aa-163f", "value": 40}],
+        "entryLinks": [
+          {
+            "name": "Armor",
+            "id": "8ce3-faa7-232a-3969",
+            "collective": false,
+            "hidden": false,
+            "import": true,
+            "targetId": "874f-c295-cc1a-bb92",
+            "type": "selectionEntryGroup"
+          },
+          {
+            "name": "Shield",
+            "id": "f101-63a8-571f-99a8",
+            "collective": false,
+            "hidden": false,
+            "import": true,
+            "targetId": "387a-b2a0-786e-a66e",
+            "type": "selectionEntryGroup"
+          },
+          {
+            "name": "Weapons",
+            "id": "5994-62f5-ccc8-fce8",
+            "collective": false,
+            "hidden": false,
+            "import": true,
+            "targetId": "3c4b-f29c-62d5-40ef",
+            "type": "selectionEntryGroup"
+          }
+        ],
+        "profiles": [
+          {
+            "name": "Bondi",
+            "id": "148e-321c-e887-c427",
+            "hidden": false,
+            "page": 64,
+            "publicationId": "81de-2783-487c-43ea",
+            "typeId": "d323-ffd5-ba38-2225",
+            "typeName": "Base Statistics",
+            "characteristics": [
+              {"name": "AP", "$text": "2", "typeId": "a62b-c49a-e0d0-4859"},
+              {"name": "SP", "$text": "5", "typeId": "c2f6-3396-28d2-3768"},
+              {"name": "MA", "$text": "2", "typeId": "341e-c5cb-c3fd-a902"},
+              {"name": "RA", "$text": "1", "typeId": "dfd6-caa6-dae6-0aab"},
+              {"name": "DF", "$text": "2", "typeId": "997c-e0eb-f3cd-fbb1"},
+              {"name": "RS", "$text": "1", "typeId": "48f4-9aaf-07c3-5389"},
+              {"name": "DR", "$text": "2", "typeId": "72fe-3c06-56e5-3b3b"},
+              {"name": "MN", "$text": "2", "typeId": "a8bf-8ece-c0f2-de5c"},
+              {"name": "HP", "$text": "2", "typeId": "a9d6-7c3d-ed79-664c"}
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Huskarl",
+        "id": "ddbe-01bc-baf7-68b0",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "type": "model",
+        "categoryLinks": [
+          {"name": "New CategoryLink", "id": "2623-9fc4-31eb-8495", "hidden": false, "primary": true, "targetId": "aa00-3692-2674-7ee9"},
+          {"name": "Models", "id": "47d7-233f-3061-4dbb", "hidden": false, "primary": false, "targetId": "e432-0a79-0f40-69f8"}
+        ],
+        "costs": [{"name": "Glory", "typeId": "075a-a276-09aa-163f", "value": 60}],
+        "entryLinks": [
+          {
+            "name": "Armor",
+            "id": "e78a-9cef-bf22-7c02",
+            "collective": false,
+            "hidden": false,
+            "import": true,
+            "targetId": "874f-c295-cc1a-bb92",
+            "type": "selectionEntryGroup"
+          },
+          {
+            "name": "Shield",
+            "id": "2db1-d291-e807-70d7",
+            "collective": false,
+            "hidden": false,
+            "import": true,
+            "targetId": "387a-b2a0-786e-a66e",
+            "type": "selectionEntryGroup"
+          },
+          {
+            "name": "Weapons",
+            "id": "805e-97ed-0dc2-85ca",
+            "collective": false,
+            "hidden": false,
+            "import": true,
+            "targetId": "3c4b-f29c-62d5-40ef",
+            "type": "selectionEntryGroup"
+          }
+        ],
+        "infoGroups": [
+          {
+            "name": "Special Abilities",
+            "id": "3873-eda6-2550-8456",
+            "hidden": false,
+            "infoLinks": [
+              {"name": "Brace", "id": "b424-39ad-30af-f0fa", "hidden": false, "targetId": "2af2-fcc1-e268-7ec2", "type": "rule"},
+              {"name": "High Pain Threshold", "id": "32bc-4ab3-2550-0e97", "hidden": false, "targetId": "d981-3fd1-6501-abef", "type": "rule"},
+              {"name": "Stalwart", "id": "b11f-5ace-7ae2-9baf", "hidden": false, "targetId": "6a9e-0d83-84bd-98ea", "type": "rule"}
+            ],
+            "profiles": [
+              {
+                "name": "Special Abilities",
+                "id": "594e-a07e-56c9-c56e",
+                "hidden": false,
+                "page": 65,
+                "publicationId": "81de-2783-487c-43ea",
+                "typeId": "84af-fef6-536c-30d5",
+                "typeName": "Special Abilities",
+                "characteristics": [{"name": "Special Abilites", "$text": "Brace, High Pain Threshold, Stalwart", "typeId": "8fae-891e-a533-f212"}]
+              }
+            ]
+          }
+        ],
+        "profiles": [
+          {
+            "name": "Huskarl",
+            "id": "0778-588e-33a7-11fc",
+            "hidden": false,
+            "page": 65,
+            "publicationId": "81de-2783-487c-43ea",
+            "typeId": "d323-ffd5-ba38-2225",
+            "typeName": "Base Statistics",
+            "characteristics": [
+              {"name": "AP", "$text": "2", "typeId": "a62b-c49a-e0d0-4859"},
+              {"name": "SP", "$text": "5", "typeId": "c2f6-3396-28d2-3768"},
+              {"name": "MA", "$text": "3", "typeId": "341e-c5cb-c3fd-a902"},
+              {"name": "RA", "$text": "0", "typeId": "dfd6-caa6-dae6-0aab"},
+              {"name": "DF", "$text": "3", "typeId": "997c-e0eb-f3cd-fbb1"},
+              {"name": "RS", "$text": "2", "typeId": "48f4-9aaf-07c3-5389"},
+              {"name": "DR", "$text": "3", "typeId": "72fe-3c06-56e5-3b3b"},
+              {"name": "MN", "$text": "2", "typeId": "a8bf-8ece-c0f2-de5c"},
+              {"name": "HP", "$text": "2", "typeId": "a9d6-7c3d-ed79-664c"}
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Berserker",
+        "id": "4c65-6e3f-351d-2448",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "publicationId": "81de-2783-487c-43ea",
+        "type": "model",
+        "categoryLinks": [
+          {"name": "New CategoryLink", "id": "9346-1e64-9faa-c421", "hidden": false, "primary": true, "targetId": "aa00-3692-2674-7ee9"},
+          {"name": "Models", "id": "037a-c646-2f24-8b65", "hidden": false, "primary": false, "targetId": "e432-0a79-0f40-69f8"}
+        ],
+        "costs": [{"name": "Glory", "typeId": "075a-a276-09aa-163f", "value": 80}],
+        "entryLinks": [
+          {
+            "name": "Armor",
+            "id": "15ab-be58-2b27-7f5e",
+            "collective": false,
+            "hidden": false,
+            "import": true,
+            "targetId": "874f-c295-cc1a-bb92",
+            "type": "selectionEntryGroup"
+          },
+          {
+            "name": "Shield",
+            "id": "8dca-fe8d-11ef-58b9",
+            "collective": false,
+            "hidden": false,
+            "import": true,
+            "targetId": "387a-b2a0-786e-a66e",
+            "type": "selectionEntryGroup"
+          },
+          {
+            "name": "Weapons",
+            "id": "4e9f-a370-647e-0ccc",
+            "collective": false,
+            "hidden": false,
+            "import": true,
+            "targetId": "3c4b-f29c-62d5-40ef",
+            "type": "selectionEntryGroup"
+          }
+        ],
+        "infoGroups": [
+          {
+            "name": "Special Abilities",
+            "id": "edb7-07aa-2886-a636",
+            "hidden": false,
+            "infoLinks": [
+              {"name": "Berserker", "id": "7e4c-b3ce-d275-b4d0", "hidden": false, "targetId": "6611-168d-e975-c7dd", "type": "rule"},
+              {"name": "Terrifying (x)", "id": "55bc-1fd6-dc35-a44b", "hidden": false, "targetId": "6621-8c83-6bf5-b6a2", "type": "rule"},
+              {"name": "Rapid Attack", "id": "5ae0-7c1f-132d-0b86", "hidden": false, "targetId": "523c-2795-357f-d8c3", "type": "rule"}
+            ],
+            "profiles": [
+              {
+                "name": "Special Abilities",
+                "id": "2c01-1698-6bc7-f446",
+                "hidden": false,
+                "page": 65,
+                "publicationId": "81de-2783-487c-43ea",
+                "typeId": "84af-fef6-536c-30d5",
+                "typeName": "Special Abilities",
+                "characteristics": [{"name": "Special Abilites", "$text": "Berserker, Terrifying (1), Rapid Attack", "typeId": "8fae-891e-a533-f212"}]
+              }
+            ]
+          }
+        ],
+        "profiles": [
+          {
+            "name": "Berserker",
+            "id": "221e-029e-4df4-0d47",
+            "hidden": false,
+            "page": 65,
+            "publicationId": "81de-2783-487c-43ea",
+            "typeId": "d323-ffd5-ba38-2225",
+            "typeName": "Base Statistics",
+            "characteristics": [
+              {"name": "AP", "$text": "2", "typeId": "a62b-c49a-e0d0-4859"},
+              {"name": "SP", "$text": "6", "typeId": "c2f6-3396-28d2-3768"},
+              {"name": "MA", "$text": "3", "typeId": "341e-c5cb-c3fd-a902"},
+              {"name": "RA", "$text": "0", "typeId": "dfd6-caa6-dae6-0aab"},
+              {"name": "DF", "$text": "1", "typeId": "997c-e0eb-f3cd-fbb1"},
+              {"name": "RS", "$text": "2", "typeId": "48f4-9aaf-07c3-5389"},
+              {"name": "DR", "$text": "4", "typeId": "72fe-3c06-56e5-3b3b"},
+              {"name": "MN", "$text": "1", "typeId": "a8bf-8ece-c0f2-de5c"},
+              {"name": "HP", "$text": "2", "typeId": "a9d6-7c3d-ed79-664c"}
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Skald",
+        "id": "53d1-7d36-042c-d5a7",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "type": "model",
+        "categoryLinks": [
+          {"name": "New CategoryLink", "id": "31e9-5864-1b84-f8b7", "hidden": false, "primary": true, "targetId": "aa00-3692-2674-7ee9"},
+          {"name": "Models", "id": "c628-9aa4-32c1-37b3", "hidden": false, "primary": false, "targetId": "e432-0a79-0f40-69f8"}
+        ],
+        "costs": [{"name": "Glory", "typeId": "075a-a276-09aa-163f", "value": 70}],
+        "entryLinks": [
+          {
+            "name": "Armor",
+            "id": "07a3-bb51-ecec-ceb5",
+            "collective": false,
+            "hidden": false,
+            "import": true,
+            "targetId": "874f-c295-cc1a-bb92",
+            "type": "selectionEntryGroup"
+          },
+          {
+            "name": "Shield",
+            "id": "13db-9eb9-75be-5bce",
+            "collective": false,
+            "hidden": false,
+            "import": true,
+            "targetId": "387a-b2a0-786e-a66e",
+            "type": "selectionEntryGroup"
+          },
+          {
+            "name": "Weapons",
+            "id": "5cee-2ced-84de-8f0d",
+            "collective": false,
+            "hidden": false,
+            "import": true,
+            "targetId": "3c4b-f29c-62d5-40ef",
+            "type": "selectionEntryGroup"
+          }
+        ],
+        "infoGroups": [
+          {
+            "name": "Special Abilities",
+            "id": "3edc-8106-232e-b74c",
+            "hidden": false,
+            "infoLinks": [
+              {"name": "Tactician (x)", "id": "7bde-0eec-9f2a-6741", "hidden": false, "targetId": "7695-b6eb-a5d0-c739", "type": "rule"},
+              {"name": "Taunt (x)", "id": "980a-ac87-9351-40ec", "hidden": false, "targetId": "a7c1-d573-2813-748d", "type": "rule"}
+            ],
+            "profiles": [
+              {
+                "name": "Special Abilities",
+                "id": "d5c0-bc93-4601-6cb7",
+                "hidden": false,
+                "typeId": "84af-fef6-536c-30d5",
+                "typeName": "Special Abilities",
+                "characteristics": [{"name": "Special Abilites", "$text": "Tactician (6), Taunt (2)", "typeId": "8fae-891e-a533-f212"}]
+              }
+            ]
+          }
+        ],
+        "profiles": [
+          {
+            "name": "Skald",
+            "id": "1e1a-40ff-09d3-865e",
+            "hidden": false,
+            "page": 66,
+            "publicationId": "81de-2783-487c-43ea",
+            "typeId": "d323-ffd5-ba38-2225",
+            "typeName": "Base Statistics",
+            "characteristics": [
+              {"name": "AP", "$text": "2", "typeId": "a62b-c49a-e0d0-4859"},
+              {"name": "SP", "$text": "5", "typeId": "c2f6-3396-28d2-3768"},
+              {"name": "MA", "$text": "2", "typeId": "341e-c5cb-c3fd-a902"},
+              {"name": "RA", "$text": "1", "typeId": "dfd6-caa6-dae6-0aab"},
+              {"name": "DF", "$text": "2", "typeId": "997c-e0eb-f3cd-fbb1"},
+              {"name": "RS", "$text": "1", "typeId": "48f4-9aaf-07c3-5389"},
+              {"name": "DR", "$text": "2", "typeId": "72fe-3c06-56e5-3b3b"},
+              {"name": "MN", "$text": "3", "typeId": "a8bf-8ece-c0f2-de5c"},
+              {"name": "HP", "$text": "2", "typeId": "a9d6-7c3d-ed79-664c"}
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Gothi",
+        "id": "a315-50f4-f30e-ae04",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "type": "model",
+        "categoryLinks": [
+          {"name": "New CategoryLink", "id": "b38c-f82f-78f4-b83b", "hidden": false, "primary": true, "targetId": "aa00-3692-2674-7ee9"},
+          {"name": "Models", "id": "36df-c8cf-217a-b0fe", "hidden": false, "primary": false, "targetId": "e432-0a79-0f40-69f8"}
+        ],
+        "costs": [{"name": "Glory", "typeId": "075a-a276-09aa-163f", "value": 60}],
+        "entryLinks": [
+          {
+            "name": "Armor",
+            "id": "4c8c-7551-2cee-244b",
+            "collective": false,
+            "hidden": false,
+            "import": true,
+            "targetId": "874f-c295-cc1a-bb92",
+            "type": "selectionEntryGroup"
+          },
+          {
+            "name": "Shield",
+            "id": "99aa-1d41-53aa-594c",
+            "collective": false,
+            "hidden": false,
+            "import": true,
+            "targetId": "387a-b2a0-786e-a66e",
+            "type": "selectionEntryGroup"
+          },
+          {
+            "name": "Weapons",
+            "id": "2521-32cf-b4f4-89d1",
+            "collective": false,
+            "hidden": false,
+            "import": true,
+            "targetId": "3c4b-f29c-62d5-40ef",
+            "type": "selectionEntryGroup"
+          }
+        ],
+        "infoGroups": [
+          {
+            "name": "Special Abilities",
+            "id": "b1c5-1c9b-a6f7-efc9",
+            "hidden": false,
+            "infoLinks": [
+              {"name": "Healer (x)", "id": "80ac-791c-5ebd-925b", "hidden": false, "targetId": "a955-d4b8-f661-e1ce", "type": "rule"},
+              {"name": "Godspark Attuned", "id": "d3b4-abfe-5ed5-368d", "hidden": false, "targetId": "72d2-2fba-bb03-fae5", "type": "rule"}
+            ],
+            "profiles": [
+              {
+                "name": "Special Abilities",
+                "id": "eda0-d536-0629-8d83",
+                "hidden": false,
+                "page": 66,
+                "publicationId": "81de-2783-487c-43ea",
+                "typeId": "84af-fef6-536c-30d5",
+                "typeName": "Special Abilities",
+                "characteristics": [{"name": "Special Abilites", "$text": "Healer (ML), Godspark Attuned", "typeId": "8fae-891e-a533-f212"}]
+              }
+            ]
+          }
+        ],
+        "profiles": [
+          {
+            "name": "Gothi",
+            "id": "e03b-fdb2-f196-4d0f",
+            "hidden": false,
+            "page": 66,
+            "publicationId": "81de-2783-487c-43ea",
+            "typeId": "d323-ffd5-ba38-2225",
+            "typeName": "Base Statistics",
+            "characteristics": [
+              {"name": "AP", "$text": "2", "typeId": "a62b-c49a-e0d0-4859"},
+              {"name": "SP", "$text": "5", "typeId": "c2f6-3396-28d2-3768"},
+              {"name": "MA", "$text": "2", "typeId": "341e-c5cb-c3fd-a902"},
+              {"name": "RA", "$text": "0", "typeId": "dfd6-caa6-dae6-0aab"},
+              {"name": "DF", "$text": "2", "typeId": "997c-e0eb-f3cd-fbb1"},
+              {"name": "RS", "$text": "1", "typeId": "48f4-9aaf-07c3-5389"},
+              {"name": "DR", "$text": "3", "typeId": "72fe-3c06-56e5-3b3b"},
+              {"name": "MN", "$text": "3", "typeId": "a8bf-8ece-c0f2-de5c"},
+              {"name": "HP", "$text": "2", "typeId": "a9d6-7c3d-ed79-664c"}
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Speider",
+        "id": "77a6-07d9-db3b-6d65",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "type": "model",
+        "categoryLinks": [
+          {"name": "New CategoryLink", "id": "4e92-714f-97e0-415b", "hidden": false, "primary": true, "targetId": "aa00-3692-2674-7ee9"},
+          {"name": "Models", "id": "cc9e-99eb-f923-a688", "hidden": false, "primary": false, "targetId": "e432-0a79-0f40-69f8"}
+        ],
+        "costs": [{"name": "Glory", "typeId": "075a-a276-09aa-163f", "value": 70}],
+        "entryLinks": [
+          {
+            "name": "Armor",
+            "id": "212f-4112-42c7-03e3",
+            "collective": false,
+            "hidden": false,
+            "import": true,
+            "targetId": "874f-c295-cc1a-bb92",
+            "type": "selectionEntryGroup"
+          },
+          {
+            "name": "Shield",
+            "id": "3a16-30e1-43ba-32e0",
+            "collective": false,
+            "hidden": false,
+            "import": true,
+            "targetId": "387a-b2a0-786e-a66e",
+            "type": "selectionEntryGroup"
+          },
+          {
+            "name": "Weapons",
+            "id": "80d1-bef4-1cd6-9e61",
+            "collective": false,
+            "hidden": false,
+            "import": true,
+            "targetId": "3c4b-f29c-62d5-40ef",
+            "type": "selectionEntryGroup"
+          }
+        ],
+        "infoGroups": [
+          {
+            "name": "Special Abilities",
+            "id": "ca9a-214e-2007-a733",
+            "hidden": false,
+            "infoLinks": [
+              {"name": "Concealment", "id": "bdf1-7926-f0da-e026", "hidden": false, "targetId": "4ce7-9686-36e4-2291", "type": "rule"},
+              {"name": "Stealth", "id": "0752-f74b-9997-aa4d", "hidden": false, "targetId": "0046-e21c-3ce3-8b06", "type": "rule"}
+            ],
+            "profiles": [
+              {
+                "name": "Special Abilities",
+                "id": "6416-d876-b889-df89",
+                "hidden": false,
+                "page": 67,
+                "publicationId": "81de-2783-487c-43ea",
+                "typeId": "84af-fef6-536c-30d5",
+                "typeName": "Special Abilities",
+                "characteristics": [{"name": "Special Abilites", "$text": "Concealment, Stealth", "typeId": "8fae-891e-a533-f212"}]
+              }
+            ]
+          }
+        ],
+        "profiles": [
+          {
+            "name": "Speider",
+            "id": "c7bd-8851-6db1-e4fc",
+            "hidden": false,
+            "page": 67,
+            "publicationId": "81de-2783-487c-43ea",
+            "typeId": "d323-ffd5-ba38-2225",
+            "typeName": "Base Statistics",
+            "characteristics": [
+              {"name": "AP", "$text": "2", "typeId": "a62b-c49a-e0d0-4859"},
+              {"name": "SP", "$text": "6", "typeId": "c2f6-3396-28d2-3768"},
+              {"name": "MA", "$text": "1", "typeId": "341e-c5cb-c3fd-a902"},
+              {"name": "RA", "$text": "2", "typeId": "dfd6-caa6-dae6-0aab"},
+              {"name": "DF", "$text": "3", "typeId": "997c-e0eb-f3cd-fbb1"},
+              {"name": "RS", "$text": "1", "typeId": "48f4-9aaf-07c3-5389"},
+              {"name": "DR", "$text": "2", "typeId": "72fe-3c06-56e5-3b3b"},
+              {"name": "MN", "$text": "2", "typeId": "a8bf-8ece-c0f2-de5c"},
+              {"name": "HP", "$text": "2", "typeId": "a9d6-7c3d-ed79-664c"}
+            ]
+          }
+        ]
+      }
+    ],
+    "sharedSelectionEntries": [
+      {
+        "name": "Light Leathers",
+        "id": "757b-51fe-c160-5c78",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "type": "upgrade",
+        "costs": [{"name": "Glory", "typeId": "075a-a276-09aa-163f", "value": 5}],
+        "infoLinks": [{"name": "Light Leathers", "id": "1f32-6ecc-fc87-9806", "hidden": false, "targetId": "9ccc-dd60-caa0-62c3", "type": "profile"}]
+      },
+      {
+        "name": "Scale/ Chain Armor",
+        "id": "9866-5998-ddfe-f8d3",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "type": "upgrade",
+        "costs": [{"name": "Glory", "typeId": "075a-a276-09aa-163f", "value": 10}],
+        "infoLinks": [{"name": "Scale/Chain Armor", "id": "5c5b-63a3-3b6d-a126", "hidden": false, "targetId": "6aeb-9848-558d-1228", "type": "profile"}]
+      },
+      {
+        "name": "Heavy Armor",
+        "id": "b484-415c-ae5c-cc27",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "type": "upgrade",
+        "costs": [{"name": "Glory", "typeId": "075a-a276-09aa-163f", "value": 15}],
+        "infoLinks": [{"name": "Heavy Armor", "id": "8e94-5b5e-321f-29fd", "hidden": false, "targetId": "a822-7166-415f-122c", "type": "profile"}]
+      },
+      {
+        "name": "Shield",
+        "id": "2025-a6b7-a540-6799",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "type": "upgrade",
+        "costs": [{"name": "Glory", "typeId": "075a-a276-09aa-163f", "value": 5}],
+        "infoLinks": [{"name": "Shield", "id": "f7e3-295a-d31c-8d95", "hidden": false, "targetId": "a8db-a560-54dc-5fcf", "type": "profile"}]
+      },
+      {
+        "name": "Atgeir",
+        "id": "6008-9704-77e6-fa08",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "publicationId": "81de-2783-487c-43ea",
+        "type": "upgrade",
+        "costs": [{"name": "Glory", "typeId": "075a-a276-09aa-163f", "value": 20}],
+        "infoLinks": [{"name": "Atgeir", "id": "88e5-b5ac-6b95-3c70", "hidden": false, "targetId": "0d40-4a85-387d-1582", "type": "profile"}]
+      },
+      {
+        "name": "Axe/Sword/Hammer",
+        "id": "a8b8-e9ba-dda4-da9e",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "publicationId": "81de-2783-487c-43ea",
+        "type": "upgrade",
+        "costs": [{"name": "Glory", "typeId": "075a-a276-09aa-163f", "value": 10}],
+        "infoLinks": [{"name": "Axe/Sword/Hammer", "id": "b228-0fdd-3286-319d", "hidden": false, "targetId": "efaf-26c3-773b-c394", "type": "profile"}]
+      },
+      {
+        "name": "Club/Dagger",
+        "id": "7a19-1916-e693-0b18",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "publicationId": "81de-2783-487c-43ea",
+        "type": "upgrade",
+        "costs": [{"name": "Glory", "typeId": "075a-a276-09aa-163f", "value": 5}],
+        "infoLinks": [{"name": "Club/Dagger", "id": "559a-990f-2eb7-1596", "hidden": false, "targetId": "8929-c8df-524d-6b23", "type": "profile"}]
+      },
+      {
+        "name": "Great Weapon",
+        "id": "4612-d656-d9f2-4693",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "publicationId": "81de-2783-487c-43ea",
+        "type": "upgrade",
+        "costs": [{"name": "Glory", "typeId": "075a-a276-09aa-163f", "value": 15}],
+        "infoLinks": [{"name": "Great Weapon", "id": "8189-152a-f1df-e209", "hidden": false, "targetId": "eeb4-570e-09f2-3f4d", "type": "profile"}]
+      },
+      {
+        "name": "Scythe",
+        "id": "84f3-8914-8cf0-35f3",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "publicationId": "81de-2783-487c-43ea",
+        "type": "upgrade",
+        "costs": [{"name": "Glory", "typeId": "075a-a276-09aa-163f", "value": 25}],
+        "infoLinks": [
+          {"name": "Scythe", "id": "892a-2cdf-3e96-c164", "hidden": false, "targetId": "45d7-628f-b835-667d", "type": "profile"},
+          {"name": "Savage", "id": "8136-1449-bf7f-84fa", "hidden": false, "targetId": "a59e-2eff-7849-1202", "type": "rule"},
+          {"name": "Cumbersome", "id": "7ee1-aac9-0ce0-d532", "hidden": false, "targetId": "2d86-2a11-c4ef-4c3e", "type": "rule"}
+        ]
+      },
+      {
+        "name": "Spear",
+        "id": "aeaa-5d12-20ba-6914",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "type": "upgrade",
+        "costs": [{"name": "Glory", "typeId": "075a-a276-09aa-163f", "value": 15}],
+        "infoLinks": [{"name": "Spear", "id": "df0b-83bf-921b-c900", "hidden": false, "targetId": "3b5a-c3d4-59d4-0922", "type": "profile"}]
+      },
+      {
+        "name": "Ulfbert",
+        "id": "43a1-5f08-455c-d7eb",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "type": "upgrade",
+        "costs": [{"name": "Glory", "typeId": "075a-a276-09aa-163f", "value": 65}],
+        "infoLinks": [
+          {"name": "Ulfbert", "id": "9ab8-a2a3-2348-e383", "hidden": false, "targetId": "8d1f-de9c-9cca-c9c4", "type": "profile"},
+          {"name": "Lethal", "id": "eb5b-3d19-6b78-33bb", "hidden": false, "targetId": "5098-8c3e-0159-7ac0", "type": "rule"}
+        ]
+      },
+      {
+        "name": "Yew Bow",
+        "id": "641b-b624-77ca-8442",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "type": "upgrade",
+        "costs": [{"name": "Glory", "typeId": "075a-a276-09aa-163f", "value": 30}],
+        "infoLinks": [{"name": "Yew Bow", "id": "619d-b6cf-e043-e1c8", "hidden": false, "targetId": "e6ef-d160-e1f7-b485", "type": "profile"}]
+      },
+      {
+        "name": "Throwing Axe/Hammer",
+        "id": "9fa3-64f2-a30f-f103",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "type": "upgrade",
+        "costs": [{"name": "Glory", "typeId": "075a-a276-09aa-163f", "value": 20}],
+        "infoLinks": [{"name": "Throwing Axe/Hammer", "id": "c164-3aad-9b20-3750", "hidden": false, "targetId": "8c77-fa1f-1061-37c8", "type": "profile"}]
+      },
+      {
+        "name": "Throwing Spear",
+        "id": "9cff-6b61-b583-e361",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "type": "upgrade",
+        "costs": [{"name": "Glory", "typeId": "075a-a276-09aa-163f", "value": 25}],
+        "infoLinks": [{"name": "Throwing Spear", "id": "edac-5b24-6292-65af", "hidden": false, "targetId": "7d43-4f77-df05-931a", "type": "profile"}]
+      },
+      {
+        "name": "Throwing Dagger",
+        "id": "5caf-b4ea-85c5-78c4",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "type": "upgrade",
+        "costs": [{"name": "Glory", "typeId": "075a-a276-09aa-163f", "value": 15}],
+        "infoLinks": [{"name": "Throwing Dagger", "id": "e3d9-e1b5-9b95-ae93", "hidden": false, "targetId": "ba50-84ff-c5c4-c05f", "type": "profile"}]
+      },
+      {
+        "name": "Sling",
+        "id": "c4fb-9b92-d417-ffd5",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "type": "upgrade",
+        "costs": [{"name": "Glory", "typeId": "075a-a276-09aa-163f", "value": 15}],
+        "infoLinks": [{"name": "Sling", "id": "6d47-f73e-5765-953a", "hidden": false, "targetId": "4963-cf56-0579-65d7", "type": "profile"}]
+      }
+    ],
+    "sharedSelectionEntryGroups": [
+      {
+        "name": "Armor (Max 1)",
+        "id": "874f-c295-cc1a-bb92",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "constraints": [
+          {
+            "id": "bece-cabf-c86f-4a72",
+            "field": "selections",
+            "includeChildForces": false,
+            "includeChildSelections": false,
+            "percentValue": false,
+            "scope": "parent",
+            "shared": true,
+            "type": "max",
+            "value": 1
+          }
+        ],
+        "entryLinks": [
+          {
+            "name": "Heavy Armor",
+            "id": "6a63-beb7-2e08-a4d2",
+            "collective": false,
+            "hidden": false,
+            "import": true,
+            "targetId": "b484-415c-ae5c-cc27",
+            "type": "selectionEntry"
+          },
+          {
+            "name": "Light Leathers",
+            "id": "7b08-88e7-2b3f-ad8c",
+            "collective": false,
+            "hidden": false,
+            "import": true,
+            "targetId": "757b-51fe-c160-5c78",
+            "type": "selectionEntry"
+          },
+          {
+            "name": "Scale/ Chain Armor",
+            "id": "57df-b24b-c6a6-fdf8",
+            "collective": false,
+            "hidden": false,
+            "import": true,
+            "targetId": "9866-5998-ddfe-f8d3",
+            "type": "selectionEntry"
+          }
+        ]
+      },
+      {
+        "name": "Weapons (Up to 3)",
+        "id": "3c4b-f29c-62d5-40ef",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "constraints": [
+          {
+            "id": "2c1e-5f7c-748b-cbac",
+            "field": "selections",
+            "includeChildForces": false,
+            "includeChildSelections": false,
+            "percentValue": false,
+            "scope": "parent",
+            "shared": true,
+            "type": "max",
+            "value": 3
+          }
+        ],
+        "selectionEntryGroups": [
+          {
+            "name": "Ranged Weapons",
+            "id": "60f3-212f-3035-fa51",
+            "collective": false,
+            "hidden": false,
+            "import": true,
+            "entryLinks": [
+              {
+                "name": "Yew Bow",
+                "id": "110c-42e2-7416-9cde",
+                "collective": false,
+                "hidden": false,
+                "import": true,
+                "targetId": "641b-b624-77ca-8442",
+                "type": "selectionEntry"
+              },
+              {
+                "name": "Throwing Axe/Hammer",
+                "id": "a9fe-2f5b-19ef-5ae9",
+                "collective": false,
+                "hidden": false,
+                "import": true,
+                "targetId": "9fa3-64f2-a30f-f103",
+                "type": "selectionEntry"
+              },
+              {
+                "name": "Throwing Dagger",
+                "id": "0572-0cc4-6259-99f0",
+                "collective": false,
+                "hidden": false,
+                "import": true,
+                "targetId": "5caf-b4ea-85c5-78c4",
+                "type": "selectionEntry"
+              },
+              {
+                "name": "Throwing Spear",
+                "id": "fc75-7fed-d958-4cf3",
+                "collective": false,
+                "hidden": false,
+                "import": true,
+                "targetId": "9cff-6b61-b583-e361",
+                "type": "selectionEntry"
+              },
+              {
+                "name": "Sling",
+                "id": "07db-d9e0-cc09-4e7f",
+                "collective": false,
+                "hidden": false,
+                "import": true,
+                "targetId": "c4fb-9b92-d417-ffd5",
+                "type": "selectionEntry"
+              }
+            ]
+          },
+          {
+            "name": "Melee Weapons",
+            "id": "a221-429b-b759-4b0c",
+            "collective": false,
+            "hidden": false,
+            "import": true,
+            "entryLinks": [
+              {
+                "name": "Atgeir",
+                "id": "3e06-83e5-b1aa-54e3",
+                "collective": false,
+                "hidden": false,
+                "import": true,
+                "targetId": "6008-9704-77e6-fa08",
+                "type": "selectionEntry"
+              },
+              {
+                "name": "Axe/Sword/Hammer",
+                "id": "1665-3b86-e1f3-1666",
+                "collective": false,
+                "hidden": false,
+                "import": true,
+                "targetId": "a8b8-e9ba-dda4-da9e",
+                "type": "selectionEntry"
+              },
+              {
+                "name": "Club/Dagger",
+                "id": "4d42-235b-f8e4-0a5e",
+                "collective": false,
+                "hidden": false,
+                "import": true,
+                "targetId": "7a19-1916-e693-0b18",
+                "type": "selectionEntry"
+              },
+              {
+                "name": "Great Weapon",
+                "id": "e442-dca1-df9d-624f",
+                "collective": false,
+                "hidden": false,
+                "import": true,
+                "targetId": "4612-d656-d9f2-4693",
+                "type": "selectionEntry"
+              },
+              {
+                "name": "Scythe",
+                "id": "15d7-6bb9-7c30-bcb3",
+                "collective": false,
+                "hidden": false,
+                "import": true,
+                "targetId": "84f3-8914-8cf0-35f3",
+                "type": "selectionEntry"
+              },
+              {
+                "name": "Spear",
+                "id": "a6ac-d007-5a8b-5f05",
+                "collective": false,
+                "hidden": false,
+                "import": true,
+                "targetId": "aeaa-5d12-20ba-6914",
+                "type": "selectionEntry"
+              },
+              {
+                "name": "Ulfbert",
+                "id": "7864-f16a-10c4-e590",
+                "collective": false,
+                "hidden": false,
+                "import": true,
+                "targetId": "43a1-5f08-455c-d7eb",
+                "type": "selectionEntry"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Shield (Max 1)",
+        "id": "387a-b2a0-786e-a66e",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "constraints": [
+          {
+            "id": "e2ae-d277-aa29-a908",
+            "field": "selections",
+            "includeChildForces": false,
+            "includeChildSelections": false,
+            "percentValue": false,
+            "scope": "parent",
+            "shared": true,
+            "type": "max",
+            "value": 1
+          }
+        ],
+        "entryLinks": [
+          {
+            "name": "Shield",
+            "id": "bc30-44b4-7dfe-18f2",
+            "collective": false,
+            "hidden": false,
+            "import": true,
+            "targetId": "2025-a6b7-a540-6799",
+            "type": "selectionEntry"
+          }
+        ]
+      }
+    ]
+  }
+}
